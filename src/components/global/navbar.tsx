@@ -21,7 +21,7 @@ const ThemeButton = dynamic(() => import('@/components/button/theme'), {
 
 const NavbarComponent = () => {
   return (
-    <nav className="sticky top-0 z-400 flex items-stretch justify-start gap-5 px-5 py-2 bg-white h-14 dark:bg-stone-950">
+    <nav className="sticky top-0 z-40 flex items-stretch justify-start gap-5 px-5 py-2 bg-white h-14 dark:bg-stone-950">
       <DrawerButton />
       <Link
         href={`/`}
