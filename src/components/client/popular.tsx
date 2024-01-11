@@ -3,11 +3,6 @@ import { IoAlertCircleOutline } from 'react-icons/io5';
 import PopularClientList from './list/popular';
 
 const PopularListComponentPage = async () => {
-  await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(null);
-    }, 15000);
-  });
   const response = await fetch(
     `${validEnv?.POPULAR_MOVIE_ENDPOINT}?page=${1}`,
     {
