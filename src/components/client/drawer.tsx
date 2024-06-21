@@ -40,7 +40,7 @@ const DrawerComponent = () => {
           <Link
             onClick={closeDrawer}
             href={`/`}
-            className="items-center justify-center text-xl font-semibold text-black flex dark:text-white">
+            className="items-center justify-center text-2xl font-semibold text-black flex dark:text-white">
             <span className="text-blue-600 capitalize">movie</span>
             <span className="capitalize">database</span>
           </Link>

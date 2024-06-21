@@ -25,7 +25,7 @@ const NavbarComponent = () => {
       <DrawerButton />
       <Link
         href={`/`}
-        className="items-center justify-center hidden text-xl font-semibold text-black md:flex dark:text-white">
+        className="items-center justify-center hidden text-2xl font-semibold text-black md:flex dark:text-white">
         <span className="text-blue-600 capitalize">movie</span>
         <span className="capitalize">database</span>
       </Link>
